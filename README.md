@@ -7,11 +7,16 @@ Set the default audio device.
         Set_audio_device.exe [-in/-out] (-cons/-comm) ["Device Name"]
 
 Must specify audio direction:
+
         input(-in) or output(-out)
+        
 Optionally specify the audio role:
+
         console/general purpose(-cons) or communication(-comm)
         If ommitted, both are set
+        
 Lastly specify the device name:
+
         Case sensitive.
         Use quotes if spaces are necessary.
         Can be a substring of the device name.
